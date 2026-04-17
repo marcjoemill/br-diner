@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import BlobCursor from "./components/blob_cursor";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,28 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <BlobCursor
+          blobType="circle"
+          fillColor="#3B82F6"
+          trailCount={5}
+          sizes={[60, 65, 65, 65, 65]}
+          innerSizes={[53, 20, 20, 20, 20]}
+          innerColor="#8f1aff"
+          opacities={[0.8, 0.75, 0.75, 0.75, 0.75]}
+          shadowColor="#ff007e"
+          shadowBlur={13}
+          shadowOffsetX={-3}
+          shadowOffsetY={-6}
+          filterStdDeviation={30}
+          useFilter={true}
+          fastDuration={0.1}
+          slowDuration={0.45}
+          zIndex={100}
+        />
+        {children}
+      </body>
     </html>
   );
 }
+
