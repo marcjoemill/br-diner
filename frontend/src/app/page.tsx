@@ -210,24 +210,30 @@ export default function Home() {
         <div className="w-full max-w-6xl mx-auto px-6 pt-[200px]">
 
           <div className="flex flex-col items-center text-center mb-20 gap-2">
+            <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
             <h2 className="text-4xl md:text-7xl font-serif mb-8 italic">Ready for Good Times?</h2>
             <p className="text-text-muted text-lg max-w-2xl text-center">Reservations are recommended.</p>
+            <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-start gap-12 pt-12 border-t border-white/10">
             <div className="space-y-4">
+              <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
               <h4 className="text-brand-primary font-bold uppercase text-[10px] tracking-[0.4em]">Location</h4>
               <p className="text-xl text-text-main font-serif">
                 456 Nightlife Ave, Suite 101<br />
                 Metro Downtown, MD 20260
               </p>
+              <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
             </div>
             <div className="space-y-4 md:text-right">
+              <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
               <h4 className="text-brand-primary font-bold uppercase text-[10px] tracking-[0.4em]">Contact</h4>
               <p className="text-xl text-text-main font-serif">
                 +1 (555) 012-3456<br />
                 hello@brsdiner.com
               </p>
+              <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
             </div>
           </div>
         </div>
