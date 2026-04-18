@@ -33,4 +33,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Design System & Color Palette (BR's Diner)
+
+This project uses a high-end **Dark & Moody** aesthetic with gold accents to reflect a premium commercial restobar atmosphere.
+
+### Colors
+
+| Name | Hex | Usage |
+| :--- | :--- | :--- |
+| **Deep Charcoal** | `#0A0A0A` | Main Background |
+| **Amber Gold** | `#C5A059` | Primary Accents, Brand, Headings |
+| **Warm Ivory** | `#F5F5F5` | Primary Text |
+| **Zinc Surface** | `#18181B` | Secondary Backgrounds, Cards |
+| **Crimson Berry** | `#991B1B` | Secondary Accents |
+
+### Typography
+
+- **Headings**: `Cormorant Garamond` (Serif) - For a sophisticated, established feel.
+- **Body**: `Outfit` or `Inter` (Sans-Serif) - For clarity and modern appeal.
+
+### Brand Identity
+
+- **Name**: BR's Diner
+- **Tagline**: "Good times start here"
+
