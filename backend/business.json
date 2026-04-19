@@ -1,0 +1,116 @@
+{
+  "business": {
+    "name": "BR’s Diner",
+    "description": "Food and drinks, karaoke",
+    "location": {
+      "address": "168 A. Arnaiz Avenue, Pasay City, Philippines, 1300",
+      "google_maps": "https://maps.app.goo.gl/jgjN5SwFhfCPhXt1A"
+    },
+    "contact": {
+      "phone": "09250982345",
+      "email": "rjbato@gmail.com",
+      "facebook": ""
+    }
+  },
+  "operating_hours": {
+    "open": "16:00",
+    "close": "02:00",
+    "open_daily": true,
+    "closed_days": [],
+    "special_hours": "Announcements of special hours will be done near holiday dates"
+  },
+  "products_services": [
+    {
+      "category": "Food",
+      "items": [
+        {
+          "name": "Burger",
+          "description": "Juicy beef patty with fresh lettuce, tomato, and cheese.",
+          "price": 150
+        },
+        {
+          "name": "Sisig",
+          "description": "Crunchy, savory pork dish served on a sizzling hot plate.",
+          "price": 250
+        },
+        {
+          "name": "Wings",
+          "description": "Crispy chicken wings tossed in your choice of sauce.",
+          "price": 300
+        },
+        {
+          "name": "Fries",
+          "description": "Crispy french fries tossed in your choice of sauce.",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "category": "Drinks",
+      "items": [
+        {
+          "name": "Soda",
+          "description": "Refreshing carbonated beverage.",
+          "price": 50
+        },
+        {
+          "name": "Beer",
+          "description": "Chilled local beer.",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "category": "Karaoke",
+      "items": [
+        {
+          "name": "Karaoke Room Rental",
+          "description": "Private room rental for karaoke sessions.",
+          "price_per_hour": 500
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you have WiFi?",
+      "answer": "Yes"
+    },
+    {
+      "question": "Do you accept GCash?",
+      "answer": "Yes"
+    },
+    {
+      "question": "Is parking available?",
+      "answer": "Yes"
+    },
+    {
+      "question": "Do you take reservations?",
+      "answer": "Yes"
+    },
+    {
+      "question": "Do you offer delivery?",
+      "answer": "Yes"
+    }
+  ],
+  "policies": {
+    "payment_methods": [
+      "Cash",
+      "GCash"
+    ],
+    "cancellation_policy": "",
+    "reservation_rules": "",
+    "delivery_options": "",
+    "refund_policy": ""
+  },
+  "special_info": {
+    "promotions": "",
+    "peak_hours": "",
+    "unique_selling_points": ""
+  },
+  "chatbot_behavior": {
+    "tone": "friendly",
+    "encourage_bookings": true,
+    "suggest_popular_items": true
+  }
+}
