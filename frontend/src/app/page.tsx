@@ -196,7 +196,7 @@ export default function Home() {
               bend={-1}
               textColor="#ffffff"
               borderRadius={0.05}
-              scrollSpeed={1.5}
+              scrollSpeed={0.7}
               scrollEase={0.05}
             />
           </div>
@@ -230,8 +230,8 @@ export default function Home() {
               <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
               <h4 className="text-brand-primary font-bold uppercase text-[10px] tracking-[0.4em]">Contact</h4>
               <p className="text-xl text-text-main font-serif">
-                +1 (555) 012-3456<br />
-                hello@brsdiner.com
+                09064455868<br />
+                reynaldojrbato10@gmail.com
               </p>
               <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
             </div>
