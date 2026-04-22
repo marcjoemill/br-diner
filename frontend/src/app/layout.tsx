@@ -63,7 +63,7 @@ export default function RootLayout({
             <div className="hidden md:flex items-center gap-8 uppercase text-xs tracking-[0.2em] font-medium text-text-muted">
               <a href="#hero" className="hover:text-brand-primary transition-colors">Home</a>
               <a href="#about" className="hover:text-brand-primary transition-colors">Experience</a>
-              <a href="#menu" className="hover:text-brand-primary transition-colors">Menu</a>
+              {/* <a href="#menu" className="hover:text-brand-primary transition-colors">Menu</a> */}
               <a href="#gallery" className="hover:text-brand-primary transition-colors">Gallery</a>
               <a href="#contact" className="hover:text-brand-primary transition-colors border border-brand-primary/30 px-4 py-2 rounded-full hover:bg-brand-primary/10">Reservation</a>
             </div>
