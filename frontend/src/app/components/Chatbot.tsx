@@ -13,6 +13,7 @@ export default function Chatbot() {
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, '');
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -41,7 +42,11 @@ export default function Chatbot() {
     setIsLoading(true);
 
     try {
-      const response = await fetch(process.env.NEXT_PUBLIC_API_URL + '/chat', {
+      if (!apiBaseUrl) {
+        throw new Error('NEXT_PUBLIC_API_URL is not configured');
+      }
+
+      const response = await fetch(`${apiBaseUrl}/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -60,7 +65,7 @@ export default function Chatbot() {
       console.error('Chat error:', error);
       setMessages(prev => [...prev, {
         role: 'assistant',
-        text: "I'm having a bit of trouble connecting to my brain right now. Please try again or contact us directly!"
+        text: "I'm having trouble reaching our server right now. Please try again in a moment or contact us directly."
       }]);
     } finally {
       setIsLoading(false);
