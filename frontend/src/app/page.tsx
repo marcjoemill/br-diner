@@ -196,7 +196,7 @@ export default function Home() {
               bend={-1}
               textColor="#ffffff"
               borderRadius={0.05}
-              scrollSpeed={2}
+              scrollSpeed={1.5}
               scrollEase={0.05}
             />
           </div>
@@ -221,8 +221,8 @@ export default function Home() {
               <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
               <h4 className="text-brand-primary font-bold uppercase text-[10px] tracking-[0.4em]">Location</h4>
               <p className="text-xl text-text-main font-serif">
-                456 Nightlife Ave, Suite 101<br />
-                Metro Downtown, MD 20260
+                168 A. Arnaiz Avenue, Pasay City,<br />
+                Philippines, 1300
               </p>
               <div className="h-2 md:h-2 w-full" aria-hidden="true"></div>
             </div>
