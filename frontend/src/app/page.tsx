@@ -164,16 +164,16 @@ export default function Home() {
               <span className="text-brand-primary font-bold tracking-widest uppercase text-sm">The Story</span>
               <h2 className="text-4xl md:text-5xl font-serif leading-tight">Where Atmosphere Meets Flavor</h2>
               <p className="text-text-muted leading-relaxed text-lg">
-                BR’s Diner isn’t just a place to eat; it’s a destination for the senses. Nestled in the heart of the city, we combine the energy of a premium restobar with the soul-satisfying flavors of a traditional diner, reimagined for the modern palate.
+                BR’s Diner isn’t just a place to eat; it’s a local hangout for the community. Nestled in the heart of the city, we combine a cozy atmosphere with the soul-satisfying flavors of classic comfort food, made for everyone to enjoy.
               </p>
               <div className="grid grid-cols-2 gap-8 pt-4">
                 <div>
-                  <h4 className="font-serif text-brand-primary text-2xl mb-2">Crafted Drinks</h4>
-                  <p className="text-sm text-text-muted">Mixology that tells a story with every sip.</p>
+                  <h4 className="font-serif text-brand-primary text-2xl mb-2">Chilled Drinks</h4>
+                  <p className="text-sm text-text-muted">Refreshing beverages to perfectly pair with your favorites.</p>
                 </div>
                 <div>
-                  <h4 className="font-serif text-brand-primary text-2xl mb-2">Prime Cuts</h4>
-                  <p className="text-sm text-text-muted">Aged to perfection and grilled over open flame.</p>
+                  <h4 className="font-serif text-brand-primary text-2xl mb-2">Classic Comfort</h4>
+                  <p className="text-sm text-text-muted">Hearty, affordable meals served with a local touch.</p>
                 </div>
               </div>
             </div>

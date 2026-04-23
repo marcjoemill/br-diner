@@ -17,8 +17,63 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "BR's Diner | Good times start here",
-  description: "Experience the finest restobar vibes at BR's Diner. Gourmet comfort food, signature cocktails, and unforgettable nights.",
+  title: "BR's Diner | Classic Comfort Food & Chilled Vibes in Pasay City",
+  description: "Your favorite local hangout in Pasay City. Serving classic comfort food for the masses and a cozy space for everyone to gather.",
+  keywords: ["BR's Diner", "Pasay City Diner", "Affordable Food Pasay", "Local Hangout Pasay", "Comfort Food Pasay", "br diner"],
+  openGraph: {
+    title: "BR's Diner | Good times start here",
+    description: "Classic comfort food in the heart of Pasay City.",
+    url: "https://brdinersystem.vercel.app", 
+    siteName: "BR's Diner",
+    images: [
+      {
+        url: "/images/landing_photo.jpg", 
+        width: 1200,
+        height: 630,
+        alt: "BR's Diner Interior",
+      },
+    ],
+    locale: "en_PH",
+    type: "website",
+  },
+};
+
+// JSON-LD Structured Data for Google (Local Business)
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "BR's Diner",
+  "image": "https://brdinersystem.vercel.app/images/landing_photo.jpg",
+  "url": "https://brdinersystem.vercel.app",
+  "telephone": "09064455868",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "168 A. Arnaiz Avenue",
+    "addressLocality": "Pasay City",
+    "postalCode": "1300",
+    "addressCountry": "PH"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 14.5458, 
+    "longitude": 120.9942
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "17:00",
+    "closes": "02:00"
+  },
+  "menu": "https://brdinersystem.vercel.app/#menu",
+  "servesCuisine": "Diner, Comfort Food, Local Cuisine"
 };
 
 export default function RootLayout({
@@ -31,6 +86,12 @@ export default function RootLayout({
       lang="en"
       className={`${cormorant.variable} ${outfit.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-bg-dark text-text-main font-sans selection:bg-brand-primary selection:text-bg-dark">
         <BlobCursor
           blobType="circle"
