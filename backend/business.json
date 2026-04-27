@@ -25,22 +25,22 @@
       "items": [
         {
           "name": "Pork Sinigang",
-          "description": "Classic sour soup with pork.",
+          "description": "Classic Filipino  sour soup with tender pork slowly simmered in a rich, tangy broth served with fresh vegetables. An all time Filipino favorite.",
           "price": 200
         },
         {
           "name": "Pork Dinuguan",
-          "description": "Savory pork blood stew.",
+          "description": "Rich and savory pork blood stew slowly cooked with vinegar and spices.",
           "price": 200
         },
         {
           "name": "Beef Kare-Kare",
-          "description": "Rich peanut-based beef stew.",
+          "description": "Slow-cooked beef in creamy peanut sauce served with fresh vegetables.",
           "price": 250
         },
         {
           "name": "Beef Bulalo",
-          "description": "Hearty beef shank soup.",
+          "description": "Hearty beef shank and bone marrow soup. Perfect sa malamig na weather!",
           "price": 300
         },
         {
@@ -55,7 +55,7 @@
         },
         {
           "name": "Halabos na Hipon",
-          "description": "Steamed/boiled shrimp, Filipino style.",
+          "description": "Boiled shrimp, Filipino style.",
           "price": 300
         }
       ]
@@ -85,32 +85,32 @@
       "items": [
         {
           "name": "Sisig Pork",
-          "description": "Sizzling chopped pork sisig.",
+          "description": "Chopped tender pork with onions and chillies served sizzling hot on a cast iron plate. Perfect na pulutan!",
           "price": 250
         },
         {
           "name": "Hotdog",
-          "description": "Sizzling hotdog serving.",
+          "description": "Sizzling grilled hotdog slices served on a hot plate. ",
           "price": 160
         },
         {
           "name": "Tofu Mushroom",
-          "description": "Tofu and mushroom mix.",
+          "description": "Savory sizzling tofu and mushroom. Para sa mga gusto ng lighter na pulutan!",
           "price": 200
         },
         {
           "name": "Pusit",
-          "description": "Squid dish.",
+          "description": "Tender squid cooked in a flavorful sauce and served sizzling hot. ",
           "price": 250
         },
         {
           "name": "Tahong",
-          "description": "Mussels dish.",
+          "description": "Fresh mussels boiled in a flavorful broth.",
           "price": 230
         },
         {
           "name": "Buttered Corn",
-          "description": "Corn in butter seasoning.",
+          "description": "Sweet corn kernels tossed in seasoned butter.",
           "price": 180
         },
         {
@@ -125,22 +125,22 @@
       "items": [
         {
           "name": "Chicharon Bituka",
-          "description": "Crispy fried intestines.",
+          "description": "Crispy deep-fried pork intestines.",
           "price": 250
         },
         {
           "name": "Adobong Tito ng Baboy",
-          "description": "Pork adobo style dish.",
+          "description": "Pork cooked adobo-style in soy sauce, vinegar, and aromatic spices.",
           "price": 250
         },
         {
           "name": "Chicharon Bulaklak",
-          "description": "Crispy ruffle fat chicharon.",
+          "description": "Crispy deep-fried pork ruffle fat. Nakaka-adik na pulutan!",
           "price": 250
         },
         {
           "name": "Crispy Lechon Kawali",
-          "description": "Deep-fried pork belly.",
+          "description": "Deep-fried pork belly with a perfectly crispy skin and juicy, tender meat inside. Malutong sa labas, malambot sa loob!",
           "price": 280
         },
         {
@@ -150,32 +150,32 @@
         },
         {
           "name": "Whole Fried Chicken",
-          "description": "Whole fried chicken platter.",
+          "description": "Delicious whole golden-fried chicken with a crispy skin and flavorful seasoning. Para sa buong barkada!",
           "price": 550
         },
         {
           "name": "Half Fried Chicken",
-          "description": "Half portion fried chicken.",
+          "description": "Half portion of our golden-fried chicken.",
           "price": 300
         },
         {
           "name": "Adobong Kabayo",
-          "description": "Horse meat adobo.",
+          "description": "Horse meat slow-cooked adobo-style in vinegar, soy sauce, and garlic. ",
           "price": 300
         },
         {
           "name": "Tapang Kabayo",
-          "description": "Cured horse meat tapa.",
+          "description": "Cured and marinated horse meat tapa, pan-fried to savory perfection.",
           "price": 300
         },
         {
           "name": "Halabos na Hipon",
-          "description": "Steamed/boiled shrimp, Filipino style.",
+          "description": "Boiled shrimp, Filipino style.",
           "price": 300
         },
         {
           "name": "Crispy Pata",
-          "description": "Deep-fried pork hock.",
+          "description": "Deep-fried whole pork hock with crispy skin and tender meat. Hari ng lahat ng pulutan!",
           "price": 800
         }
       ]
@@ -200,7 +200,7 @@
         },
         {
           "name": "Porksilog",
-          "description": "Pork with sinangag and itlog.",
+          "description": "Pork chop with sinangag and itlog.",
           "price": 130
         },
         {
@@ -240,7 +240,7 @@
       "items": [
         {
           "name": "French Fries",
-          "description": "Crispy potato fries.",
+          "description": "Crispy potato fries served with ketchup.",
           "price": 150
         },
         {
