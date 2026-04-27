@@ -21,42 +21,372 @@
   },
   "products_services": [
     {
-      "category": "Food",
+      "category": "Main Dishes",
       "items": [
         {
-          "name": "Burger",
-          "description": "Juicy beef patty with fresh lettuce, tomato, and cheese.",
-          "price": 150
+          "name": "Pork Sinigang",
+          "description": "Classic sour soup with pork.",
+          "price": 200
         },
         {
-          "name": "Sisig",
-          "description": "Crunchy, savory pork dish served on a sizzling hot plate.",
+          "name": "Pork Dinuguan",
+          "description": "Savory pork blood stew.",
+          "price": 200
+        },
+        {
+          "name": "Beef Kare-Kare",
+          "description": "Rich peanut-based beef stew.",
           "price": 250
         },
         {
-          "name": "Wings",
-          "description": "Crispy chicken wings tossed in your choice of sauce.",
+          "name": "Beef Bulalo",
+          "description": "Hearty beef shank soup.",
           "price": 300
         },
         {
-          "name": "Fries",
-          "description": "Crispy french fries tossed in your choice of sauce.",
-          "price": 100
+          "name": "Beef Caldereta",
+          "description": "Tomato-based beef stew.",
+          "price": 250
+        },
+        {
+          "name": "Buttered Shrimp",
+          "description": "Shrimp cooked in butter sauce.",
+          "price": 300
+        },
+        {
+          "name": "Halabos na Hipon",
+          "description": "Steamed/boiled shrimp, Filipino style.",
+          "price": 300
         }
       ]
     },
     {
-      "category": "Drinks",
+      "category": "Short Order",
       "items": [
         {
-          "name": "Soda",
-          "description": "Refreshing carbonated beverage.",
-          "price": 50
+          "name": "Pancit Bihon Guisado",
+          "description": "Stir-fried rice noodles.",
+          "price": 250
         },
         {
-          "name": "Beer",
-          "description": "Chilled local beer.",
+          "name": "Pancit Canton",
+          "description": "Stir-fried egg noodles.",
+          "price": 280
+        },
+        {
+          "name": "Pancit Chami",
+          "description": "Thick stir-fried noodle dish.",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "category": "Sizzling Pulutan",
+      "items": [
+        {
+          "name": "Sisig Pork",
+          "description": "Sizzling chopped pork sisig.",
+          "price": 250
+        },
+        {
+          "name": "Hotdog",
+          "description": "Sizzling hotdog serving.",
+          "price": 160
+        },
+        {
+          "name": "Tofu Mushroom",
+          "description": "Tofu and mushroom mix.",
+          "price": 200
+        },
+        {
+          "name": "Pusit",
+          "description": "Squid dish.",
+          "price": 250
+        },
+        {
+          "name": "Tahong",
+          "description": "Mussels dish.",
+          "price": 230
+        },
+        {
+          "name": "Buttered Corn",
+          "description": "Corn in butter seasoning.",
+          "price": 180
+        },
+        {
+          "name": "Mixed Fruit",
+          "description": "Mixed fruit serving.",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "category": "Tampuluts Ala Boneng",
+      "items": [
+        {
+          "name": "Chicharon Bituka",
+          "description": "Crispy fried intestines.",
+          "price": 250
+        },
+        {
+          "name": "Adobong Tito ng Baboy",
+          "description": "Pork adobo style dish.",
+          "price": 250
+        },
+        {
+          "name": "Chicharon Bulaklak",
+          "description": "Crispy ruffle fat chicharon.",
+          "price": 250
+        },
+        {
+          "name": "Crispy Lechon Kawali",
+          "description": "Deep-fried pork belly.",
+          "price": 280
+        },
+        {
+          "name": "Buttered Chicken",
+          "description": "Chicken in butter sauce.",
+          "price": 300
+        },
+        {
+          "name": "Whole Fried Chicken",
+          "description": "Whole fried chicken platter.",
+          "price": 550
+        },
+        {
+          "name": "Half Fried Chicken",
+          "description": "Half portion fried chicken.",
+          "price": 300
+        },
+        {
+          "name": "Adobong Kabayo",
+          "description": "Horse meat adobo.",
+          "price": 300
+        },
+        {
+          "name": "Tapang Kabayo",
+          "description": "Cured horse meat tapa.",
+          "price": 300
+        },
+        {
+          "name": "Halabos na Hipon",
+          "description": "Steamed/boiled shrimp, Filipino style.",
+          "price": 300
+        },
+        {
+          "name": "Crispy Pata",
+          "description": "Deep-fried pork hock.",
+          "price": 800
+        }
+      ]
+    },
+    {
+      "category": "Silog Meals",
+      "items": [
+        {
+          "name": "Tapsilog",
+          "description": "Beef tapa with sinangag and itlog.",
+          "price": 130
+        },
+        {
+          "name": "Tocilog",
+          "description": "Tocino with sinangag and itlog.",
+          "price": 120
+        },
+        {
+          "name": "Liemsilog",
+          "description": "Liempo-style silog meal.",
+          "price": 130
+        },
+        {
+          "name": "Porksilog",
+          "description": "Pork with sinangag and itlog.",
+          "price": 130
+        },
+        {
+          "name": "Chicksilog",
+          "description": "Chicken with sinangag and itlog.",
+          "price": 130
+        },
+        {
+          "name": "Hotsilog",
+          "description": "Hotdog with sinangag and itlog.",
+          "price": 100
+        },
+        {
+          "name": "Skinsilog",
+          "description": "Chicken skin with sinangag and itlog.",
+          "price": 90
+        },
+        {
+          "name": "Hamsilog",
+          "description": "Ham with sinangag and itlog.",
           "price": 80
+        },
+        {
+          "name": "Bangsilog",
+          "description": "Bangus with sinangag and itlog.",
+          "price": 130
+        },
+        {
+          "name": "Hungsilog",
+          "description": "Hungarian sausage with sinangag and itlog.",
+          "price": 130
+        }
+      ]
+    },
+    {
+      "category": "Appetizer Menu",
+      "items": [
+        {
+          "name": "French Fries",
+          "description": "Crispy potato fries.",
+          "price": 150
+        },
+        {
+          "name": "Onion Rings",
+          "description": "Crispy battered onion rings.",
+          "price": 150
+        },
+        {
+          "name": "Fish Fillet",
+          "description": "Breaded fish fillet.",
+          "price": 150
+        },
+        {
+          "name": "Calamares",
+          "description": "Crispy battered squid rings.",
+          "price": 200
+        },
+        {
+          "name": "Mixed Tusok Tusok",
+          "description": "Kikiam, squid balls, and fishball.",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "category": "Rice",
+      "items": [
+        {
+          "name": "Plain Rice",
+          "description": "Steamed plain rice.",
+          "price": 25
+        },
+        {
+          "name": "Garlic Rice",
+          "description": "Garlic fried rice.",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "category": "Soft Drinks",
+      "items": [
+        {
+          "name": "Coke 1.5L",
+          "description": "1.5-liter Coca-Cola bottle.",
+          "price": 90
+        },
+        {
+          "name": "Coke Mismo",
+          "description": "Regular Coke serving.",
+          "price": 30
+        },
+        {
+          "name": "Royal",
+          "description": "Orange soda.",
+          "price": 30
+        },
+        {
+          "name": "Sprite",
+          "description": "Lemon-lime soda.",
+          "price": 30
+        },
+        {
+          "name": "Bottled Water (Small)",
+          "description": "Small bottled water.",
+          "price": 20
+        },
+        {
+          "name": "Bottled Water (Large)",
+          "description": "Large bottled water.",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "category": "Juices (In Can)",
+      "items": [
+        {
+          "name": "Pineapple Juice",
+          "description": "Canned pineapple juice.",
+          "price": 89
+        },
+        {
+          "name": "Mango Juice",
+          "description": "Canned mango juice.",
+          "price": 89
+        }
+      ]
+    },
+    {
+      "category": "Alcohol",
+      "items": [
+        {
+          "name": "Beer Bucket",
+          "description": "Includes Red Horse Stallion, Pale Pilsen, San Mig Light, San Mig Apple, San Mig Lychee, and Smirnoff Mule options. Order can be any combinations of the mentioned beers",
+          "price": 550
+        },
+        {
+          "name": "Cocktail Tower",
+          "description": "House cocktail tower.",
+          "price": 499
+        }
+      ]
+    },
+    {
+      "category": "BR's Whisky",
+      "items": [
+        {
+          "name": "Black Label 1L",
+          "description": "Whisky bottle, 1 liter.",
+          "price": 2900
+        },
+        {
+          "name": "Chivas Regal 1L",
+          "description": "Whisky bottle, 1 liter.",
+          "price": 2800
+        },
+        {
+          "name": "Jack Daniels 1L",
+          "description": "Whisky bottle, 1 liter.",
+          "price": 3500
+        },
+        {
+          "name": "Tequila Jose Cuervo",
+          "description": "Tequila bottle.",
+          "price": 2400
+        },
+        {
+          "name": "Alfonso",
+          "description": "Brandy bottle.",
+          "price": 549
+        },
+        {
+          "name": "Charles and James",
+          "description": "Liquor bottle.",
+          "price": 500
+        },
+        {
+          "name": "Alfonso Sherry Oak Light",
+          "description": "Liquor bottle.",
+          "price": 549
+        },
+        {
+          "name": "Twilight",
+          "description": "Liquor bottle.",
+          "price": 289
         }
       ]
     },
@@ -64,9 +394,9 @@
       "category": "Karaoke",
       "items": [
         {
-          "name": "Karaoke Room Rental",
-          "description": "Private room rental for karaoke sessions.",
-          "price_per_hour": 500
+          "name": "Karaoke Use",
+          "description": "Free for all. Your song is your queue.",
+          "price_per_hour": 0
         }
       ]
     }
@@ -98,15 +428,15 @@
       "Cash",
       "GCash"
     ],
-    "cancellation_policy": "",
+    "cancellation_policy": "No cancellation",
     "reservation_rules": "",
     "delivery_options": "",
-    "refund_policy": ""
+    "refund_policy": "No refunds"
   },
   "special_info": {
     "promotions": "",
-    "peak_hours": "",
-    "unique_selling_points": ""
+    "peak_hours": "around 10 pm",
+    "unique_selling_points": "Good food, affordable prices, and a fun karaoke experience."
   },
   "chatbot_behavior": {
     "tone": "friendly",
